@@ -3,11 +3,11 @@ import { ReactNavbar } from "overlay-navbar";
 import logo from "../../../images/logo.png";
 
 const options = {
-  burgerColorHover: "#eb4034",
+  burgerColorHover: "white",
   logo,
   logoWidth: "20vmax",
-  navColor1: "white",
-  logoHoverSize: "10px",
+  navColor1: "#609fe6",
+  logoHoverSize: "20px",
   logoHoverColor: "#eb4034",
   link1Text: "Home",
   link2Text: "Products",
@@ -17,8 +17,8 @@ const options = {
   link2Url: "/products",
   link3Url: "/contact",
   link4Url: "/about",
-  link1Size: "1.3vmax",
-  link1Color: "rgba(35, 35, 35,0.8)",
+  link1Size: "2vmax",
+  link1Color: "white",
   nav1justifyContent: "flex-end",
   nav2justifyContent: "flex-end",
   nav3justifyContent: "flex-start",
@@ -26,9 +26,9 @@ const options = {
   link1ColorHover: "#eb4034",
   link1Margin: "1vmax",
   profileIconUrl: "/login",
-  profileIconColor: "rgba(35, 35, 35,0.8)",
-  searchIconColor: "rgba(35, 35, 35,0.8)",
-  cartIconColor: "rgba(35, 35, 35,0.8)",
+  profileIconColor: "white",
+  searchIconColor: "white",
+  cartIconColor: "white",
   profileIconColorHover: "#eb4034",
   searchIconColorHover: "#eb4034",
   cartIconColorHover: "#eb4034",
@@ -36,7 +36,9 @@ const options = {
 };
 
 const Header = () => {
+  
   return <ReactNavbar {...options} />;
+  
 };
 
 export default Header;

@@ -1,5 +1,5 @@
 .banner {
-  background-image: url("../../images/cover.jfif");
+  background-image: url("https://builtin.com/sites/www.builtin.com/files/styles/og/public/2022-09/ecommerce.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,24 +14,35 @@
 
 .banner > h1 {
   margin: 5vmax;
-
-  font: 600 2.5vmax "Roboto";
+  position: absolute;
+  left: 850px;
+  top: 50px;
+  font: 600 7vmax "Roboto";
 }
 
 .banner > p {
-  font: 300 1.4vmax "Lucida Sans";
+  position: absolute;
+  left: 950px;
+  top: 250px;
+  font: 300 1vmax "Lucida Sans";
+  
 }
 
 .banner > a > button {
   margin-bottom: 5vmax;
+  position: absolute;
+  left: 1080px;
+  top: 330px;
   cursor: pointer;
   background-color: white;
   border: 1px solid white;
-  border-radius: 0;
+  border-radius: 100%;
   padding: 1vmax;
   transition: all 0.5s;
-  width: 9vmax;
-  font: 500 1vmax "Roboto";
+  height: 70px;
+  width: 12vmax;
+  
+  font: 500 1.5vmax "Roboto";
 }
 .banner > a > button:hover {
   background-color: rgba(255, 255, 255, 0);
